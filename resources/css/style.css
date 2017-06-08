@@ -1,0 +1,96 @@
+/* General features */
+html {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+/* header */
+.header {
+  background-color: rgb(35, 2, 63);
+  padding: 2.5rem 0;
+}
+
+.header h1{
+  font-family: 'Righteous', cursive;
+  font-size: 2.5rem;
+  color: rgb(255, 0, 171);
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.header input {
+  border-radius: 25px;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  color: rgb(191, 191, 191);
+  width: 10.5rem;
+  height: 2.6rem;
+}
+
+.header button {
+  background-color: rgb(255, 0, 171);
+  border-radius: 20px;
+  border: none;
+  padding: 0.45rem 1.5rem;
+}
+
+.header .btn:hover {
+  background-color: rgb(255, 102, 204);
+}
+
+/* attributes section */
+.attributes, #sort {
+  color: rgb(255, 255, 255);
+  background-color: rgb(104, 0, 255);
+  display: flex;
+  align-items: center;
+}
+
+.attributes span {
+  margin: 0;
+  padding: 0;
+}
+
+.attributes p {
+  margin:0;
+}
+
+#sort div .btn {
+  border: none;
+  background-color: lightsteelblue;
+}
+
+/* track */
+.track {
+  margin: 0;
+  padding: 0.2rem 0;
+  border-top: 1px solid rgba(74, 74, 74, 0.3);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  color: rgba(74, 74, 74, 0.8);
+  background-color: rgb(239, 237, 242);
+  display: flex;
+  align-items: center;
+}
+
+.track div {
+  padding: 0;
+}
+
+.track i {
+  color: rgb(255, 0, 171);
+}
+
+#artwork {
+  padding-left: 2rem;
+}
+
+#listeners {
+  padding-left: 3rem;
+}
